@@ -47,6 +47,7 @@
     [newContact setValue:_name.text forKey:@"name"];
     [newContact setValue:_phone.text forKey:@"phone"];
      [newContact setValue:_address.text forKey:@"address"];
+    [newContact setValue:_email.text forKey:@"email"];
     
     NSError *error;
     [context save:&error];
@@ -86,6 +87,9 @@
         matches = objects[0];
         _address.text = [matches valueForKey:@"address"];
         _phone.text = [matches valueForKey:@"phone"];
+        
+        _email.text = [matches valueForKey:@"email"];
+        
         _status.text = [NSString stringWithFormat:@"%d matches found", [objects
                                                                         count]];
     }
@@ -131,6 +135,8 @@
         matches = objects[0];
         _address.text = [matches valueForKey:@"address"];
         _phone.text = [matches valueForKey:@"phone"];
+        
+        _email.text = [matches valueForKey:@"email"];
         _status.text = [NSString stringWithFormat:@"%d matches found", [objects
                                                                         count]];
     }
