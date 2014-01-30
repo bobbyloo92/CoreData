@@ -57,7 +57,7 @@
     
     [newContact setValue:_name.text forKey:@"yourdon"];
     [newContact setValue:_phone.text forKey:@"phone"];
-     [newContact setValue:_address.text forKey:@"address"];
+     [newContact setValue:_address.text forKey:@"Nhiem"];
     [newContact setValue:_email.text forKey:@"email"];
     
     NSError *error;
