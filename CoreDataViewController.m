@@ -9,7 +9,11 @@
 // Yourdon just put a comment
 // Yourodn's another comment
 //Christian added a comment!!
+<<<<<<< HEAD
 //Yourdon's comment on Xcode
+=======
+//update from Nhiem
+>>>>>>> c402a7c7a09094e8702c133af89f7be5321ebe69
 
 #import "CoreDataViewController.h"
 
