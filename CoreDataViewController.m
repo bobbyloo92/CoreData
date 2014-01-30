@@ -53,7 +53,7 @@
     NSManagedObject *newContact;
     newContact = [NSEntityDescription insertNewObjectForEntityForName:@"Contacts" inManagedObjectContext:context];
     
-    [newContact setValue:_name.text forKey:@"name"];
+    [newContact setValue:_name.text forKey:@"yourdon"];
     [newContact setValue:_phone.text forKey:@"phone"];
      [newContact setValue:_address.text forKey:@"address"];
     [newContact setValue:_email.text forKey:@"email"];
