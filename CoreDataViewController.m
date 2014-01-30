@@ -15,6 +15,8 @@
 //update from Nhiem
 >>>>>>> c402a7c7a09094e8702c133af89f7be5321ebe69
 
+// The new comment by Yourdon 9:11
+
 #import "CoreDataViewController.h"
 
 @interface CoreDataViewController ()
